@@ -936,6 +936,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/thh/ta/TAs_list:$(TARGET_COPY_OUT_VENDOR)/thh/ta/TAs_list
 
 PRODUCT_PACKAGES += \
+    ImsService \
     EmCamera \
     MTKThermalManager \
     mtk-wifi-service \
