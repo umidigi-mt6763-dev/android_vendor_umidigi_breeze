@@ -6,7 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/umidigi/breeze
 
 PRODUCT_COPY_FILES += \
-    vendor/umidigi/breeze/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
+    vendor/umidigi/breeze/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
     vendor/umidigi/breeze/proprietary/etc/firmware/catcher_filter_1_ulwtg_n.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/catcher_filter_1_ulwtg_n.bin \
     vendor/umidigi/breeze/proprietary/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_FullLog.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_FullLog.bin \
     vendor/umidigi/breeze/proprietary/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_PLS_PS_ONLY.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_PLS_PS_ONLY.bin \
@@ -14,8 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/etc/firmware/customfilter/catcher_filter_1_ulwtg_n__Default.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/customfilter/catcher_filter_1_ulwtg_n__Default.bin \
     vendor/umidigi/breeze/proprietary/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_meta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_meta.bin \
     vendor/umidigi/breeze/proprietary/etc/firmware/em_filter_1_ulwtg_n.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/em_filter_1_ulwtg_n.bin \
-    vendor/umidigi/breeze/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/umidigi/breeze/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/umidigi/breeze/proprietary/vendor/app/EmCamera/lib/arm64/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/EmCamera/lib/arm64/libem_camera_jni.so \
     vendor/umidigi/breeze/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/umidigi/breeze/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
