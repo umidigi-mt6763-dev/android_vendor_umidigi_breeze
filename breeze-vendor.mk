@@ -338,7 +338,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/umidigi/breeze/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/umidigi/breeze/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
-    vendor/umidigi/breeze/proprietary/vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/pms_sysapp_removable_vendor_list.txt \
     vendor/umidigi/breeze/proprietary/vendor/etc/pildc.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/pildc.cfg \
     vendor/umidigi/breeze/proprietary/vendor/etc/power_whitelist_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_whitelist_cfg.xml \
     vendor/umidigi/breeze/proprietary/vendor/etc/powercontable.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.cfg \
