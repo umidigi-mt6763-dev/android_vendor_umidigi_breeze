@@ -17,11 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/umidigi/breeze/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/umidigi/breeze/proprietary/vendor/app/EmCamera/lib/arm64/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/EmCamera/lib/arm64/libem_camera_jni.so \
-    vendor/umidigi/breeze/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
-    vendor/umidigi/breeze/proprietary/vendor/bin/aee_aedv64:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64 \
-    vendor/umidigi/breeze/proprietary/vendor/bin/aee_archivev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_archivev \
-    vendor/umidigi/breeze/proprietary/vendor/bin/aee_dumpstatev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev \
-    vendor/umidigi/breeze/proprietary/vendor/bin/aeev:$(TARGET_COPY_OUT_VENDOR)/bin/aeev \
     vendor/umidigi/breeze/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/umidigi/breeze/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/umidigi/breeze/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
@@ -123,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/umidigi/breeze/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/umidigi/breeze/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/umidigi/breeze/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/umidigi/breeze/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/umidigi/breeze/proprietary/vendor/etc/ams_aal_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ams_aal_config.xml \
     vendor/umidigi/breeze/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
@@ -234,8 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/etc/ecc_list_OP12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP12.xml \
     vendor/umidigi/breeze/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
     vendor/umidigi/breeze/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
-    vendor/umidigi/breeze/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
-    vendor/umidigi/breeze/proprietary/vendor/etc/init/aee_aedv64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.audio@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@4.0-service-mediatek.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
