@@ -35,9 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
-    vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
-    vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.clearkey \
-    vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@2.0-service \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
@@ -230,9 +228,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
-    vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.rc \
-    vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
-    vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@2.0-service.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
@@ -360,7 +356,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@4.0-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl-mediatek.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.drm@1.0-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@2.0-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.composer@2.1-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@2.0-impl.so \
@@ -590,8 +585,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libxapi_undistort.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxapi_undistort.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@1.0.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/vendor.mediatek.hardware.audio@4.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@4.1.so \
@@ -890,8 +883,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libxapi_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxapi_bokeh.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libxapi_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxapi_preview.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libxapi_undistort.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxapi_undistort.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@1.0.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
@@ -941,4 +932,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EmCamera \
-    MTKThermalManager
+    MTKThermalManager \
+    manifest_android.hardware.drm@1.3-service.widevine
