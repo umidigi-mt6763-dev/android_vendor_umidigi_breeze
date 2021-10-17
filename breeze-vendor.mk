@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service-mediatek \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
+    vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-mediatek \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/umidigi/breeze/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
@@ -292,6 +293,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/vendor.mediatek.hardware.power@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.power@2.0-service.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/vendor.sw.swfingerprint@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sw.swfingerprint@1.0-service.rc \
+    vendor/umidigi/breeze/proprietary/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/umidigi/breeze/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
     vendor/umidigi/breeze/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt \
@@ -939,4 +941,5 @@ PRODUCT_PACKAGES += \
     EmCamera \
     MTKThermalManager \
     mtk-wifi-service \
-    manifest_android.hardware.drm@1.3-service.widevine
+    manifest_android.hardware.drm@1.3-service.widevine \
+    vibrator-mtk-default
