@@ -573,6 +573,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
+    vendor/umidigi/breeze/proprietary/vendor/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrusty.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libutinterface_custom_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_custom_md.so \
@@ -876,6 +877,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
+    vendor/umidigi/breeze/proprietary/vendor/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrusty.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui_ext.so \
