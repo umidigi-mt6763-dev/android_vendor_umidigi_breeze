@@ -297,8 +297,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/umidigi/breeze/proprietary/vendor/etc/pildc.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/pildc.cfg \
     vendor/umidigi/breeze/proprietary/vendor/etc/power_whitelist_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_whitelist_cfg.xml \
-    vendor/umidigi/breeze/proprietary/vendor/etc/powercontable.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.cfg \
-    vendor/umidigi/breeze/proprietary/vendor/etc/powerscntbl.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.cfg \
     vendor/umidigi/breeze/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/umidigi/breeze/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/umidigi/breeze/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
