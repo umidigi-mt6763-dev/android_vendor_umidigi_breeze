@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
-    vendor/umidigi/breeze/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/umidigi/breeze/proprietary/etc/firmware/catcher_filter_1_ulwtg_n.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/catcher_filter_1_ulwtg_n.bin \
     vendor/umidigi/breeze/proprietary/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_FullLog.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_FullLog.bin \
     vendor/umidigi/breeze/proprietary/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_PLS_PS_ONLY.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_PLS_PS_ONLY.bin \
