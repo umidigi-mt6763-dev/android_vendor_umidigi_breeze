@@ -16,14 +16,3 @@ android_app_import {
 	soc_specific: true,
 }
 
-android_app_import {
-	name: "MTKThermalManager",
-	owner: "umidigi",
-	apk: "proprietary/vendor/app/MTKThermalManager/MTKThermalManager.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
