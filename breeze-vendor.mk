@@ -401,7 +401,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/dfps.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6763.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/gatekeeper.itrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.itrusty.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
@@ -427,7 +426,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/vendor.sw.swfingerprint@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sw.swfingerprint@1.0-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/hw/vulkan.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6763.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.core.so \
@@ -671,7 +669,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/dfps.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6763.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/gatekeeper.itrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.itrusty.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
@@ -701,7 +698,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.2-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/hw/vulkan.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6763.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
