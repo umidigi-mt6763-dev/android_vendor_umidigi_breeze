@@ -374,13 +374,9 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/audio.primary.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6763.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/audio.r_submix.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6763.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/audio.usb.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6763.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/dfps.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6763.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
@@ -585,7 +581,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrusty.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/libutinterface_custom_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_custom_md.so \
@@ -607,7 +602,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@1.0.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/vendor.mediatek.hardware.audio@4.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@4.1.so \
     vendor/umidigi/breeze/proprietary/vendor/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.dfps@1.0.so \
@@ -637,13 +631,9 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/audio.primary.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6763.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/audio.r_submix.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6763.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/audio.usb.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6763.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/dfps.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6763.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
@@ -898,7 +888,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrusty.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui_ext.so \
@@ -916,7 +905,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/umidigi/breeze/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@1.0.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@4.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@4.1.so \
