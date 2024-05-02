@@ -27,6 +27,12 @@ android_app_import {
 	soc_specific: true,
 }
 
+dex_import {
+	name: "mtk-wifi-service",
+	owner: "umidigi",
+	jars: ["proprietary/framework/mtk-wifi-service.jar"],
+}
+
 prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.4-service.widevine",
 	owner: "umidigi",
