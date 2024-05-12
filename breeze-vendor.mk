@@ -892,13 +892,6 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/umidigi/breeze/proprietary/vendor/lib64/vendor.sw.swfingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.sw.swfingerprint@1.0.so \
-    vendor/umidigi/breeze/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
-    vendor/umidigi/breeze/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
-    vendor/umidigi/breeze/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
-    vendor/umidigi/breeze/proprietary/vendor/res/sound/CA2CA.ogg:$(TARGET_COPY_OUT_VENDOR)/res/sound/CA2CA.ogg \
-    vendor/umidigi/breeze/proprietary/vendor/res/sound/CADetected.ogg:$(TARGET_COPY_OUT_VENDOR)/res/sound/CADetected.ogg \
-    vendor/umidigi/breeze/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
-    vendor/umidigi/breeze/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
     vendor/umidigi/breeze/proprietary/vendor/thh/ta/0401c03fc30c4dd00000000000000104.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/0401c03fc30c4dd00000000000000104.ta \
     vendor/umidigi/breeze/proprietary/vendor/thh/ta/TAs_list:$(TARGET_COPY_OUT_VENDOR)/thh/ta/TAs_list
 
