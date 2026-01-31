@@ -27,3 +27,9 @@ android_app_import {
 	soc_specific: true,
 }
 
+dex_import {
+	name: "mtk-wifi-service",
+	owner: "umidigi",
+	jars: ["proprietary/framework/mtk-wifi-service.jar"],
+}
+
